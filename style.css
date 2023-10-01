@@ -26,6 +26,10 @@ html{
     scroll-behavior: smooth;
 }
 
+#menu-btn{
+    display: none;
+}
+
 html::-webkit-scrollbar{
     width: 0.8rem;
 }
@@ -209,7 +213,7 @@ section{
     display: flex;
     align-items: center;
     background:url(home-img.jpeg) no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
 }
 
